@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Test</title>
+    <style>
+        
+        *{
+        box-sizing: border-box;
+        /* padding: 0;
+        margin: 0; */
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid dodgerblue;
+            border-radius: 10px;
+            width: 500px;
+            height: 500px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            /* background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%); */
+        }
+
+        body h1 {
+            text-align: start;
+        }
+
+        .buton{
+            position: absolute;
+            top: 70%;
+            right: 40%;
+            width: 100px;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <main>
+        <h1>Login Test</h1>
+        <form action="" method="post">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <br>
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha">
+            <br>
+            <br>
+            <input type="submit" value="Entrar" id="submit" class="buton">
+        </form>
+    </main>
+</body>
+</html>
